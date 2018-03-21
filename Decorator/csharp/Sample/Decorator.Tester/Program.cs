@@ -6,7 +6,7 @@ namespace Tester
     {
         static void Main(string[] args)
         {
-            IWeapon gun = new Gun(" M4A1");
+            IWeapon gun = new Gun("M4A1");
 
             var scopedGun = new GrenadeLauncher(new ButtStock(new ExtendedMag(new Scope(gun))));
            

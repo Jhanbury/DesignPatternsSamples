@@ -7,6 +7,7 @@ namespace AdapterConsole.Sockets
         public void plugIn(IUsPlug plug)
         {
             Console.WriteLine("US Socket");
+
             plug.ProvideElectricity();
         }
     }
